@@ -1,0 +1,150 @@
+
+.inline { 
+    display: inline;  
+    margin:10px;
+    }
+.navbar 
+{
+    justify-content: flex-end; 
+    display: flex; 
+    flex-direction: row;
+    list-style-type: none;
+
+
+}
+.nav-item
+{
+
+   margin: 10px;
+}
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+    text-decoration: none;
+
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+    text-decoration: none;
+
+  }
+  .google-icon
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .search-bar
+  {
+        display: flex;
+        z-index: 3;
+        min-height: 44px;
+        background: #fff;
+        border: 1px solid #dfe1e5;
+        box-shadow: none;
+        border-radius: 24px;
+        margin: 0 auto;
+        width: 638px;
+        width: 500px;
+        max-width: 584px; 
+        margin-top: 30px;
+
+  }
+  .bott {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none; 
+     
+
+}
+.bott:hover {
+    background-color: #e1e3e4;
+    border: 1px solid #e1e3e4;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none; 
+     
+
+}
+.h1-advanced
+{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+.hr
+{
+    border-bottom: 1px solid #ebebeb;}
+    .h4
+    {
+        margin: 40px;
+        color: #333333;
+    }
+    .adv{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .inpt
+{
+ width: 383.59px; 
+ margin-right: 20px;  
+}
+
+.lbl
+{
+    width: 200px;
+    margin-left: 40px;
+}
+.bott-adv
+{
+
+
+    background-color:#3079ed;
+    border: 4px solid #3079ed;
+    color: #fff;
+    
+}
+.bott-adv:hover
+{
+
+
+    background-color:blue;
+    border: 4px solid blue;
+    color: #fff;
+    
+}
